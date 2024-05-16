@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+	<groups>
+		<run>
+			<exclude name="a"></exclude>
+		</run>
+	</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testScripts.GropsDemo"/>
+      <class name="testScripts.GroupsDemo1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
